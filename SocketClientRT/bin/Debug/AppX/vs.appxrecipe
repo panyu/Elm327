@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MAHLAPTOP</Machine>
+    <WindowsUser>Nishanth</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>80EC2525B67B351C6E66787BC41CFF0ED77F960064AA76D512A1BD333B4269DE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>aa08ebe4-5b1d-416a-b01c-be75b1ecd6f0_1.0.0.0_neutral__nq7m09cd6zr4r</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>aa08ebe4-5b1d-416a-b01c-be75b1ecd6f0_nq7m09cd6zr4r!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>aa08ebe4-5b1d-416a-b01c-be75b1ecd6f0</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Nishanth</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-01-17T20:06:05.511</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2013-01-17T20:34:33.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-19T01:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-19T01:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-19T01:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-09-19T01:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-01-18T17:30:06.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\js\gauge.js">
+      <PackagePath>js\gauge.js</PackagePath>
+      <Modified>2013-01-17T20:28:27.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\js\jquery-1.9.0.js">
+      <PackagePath>js\jquery-1.9.0.js</PackagePath>
+      <Modified>2013-01-17T02:26:22.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\js\monitor.js">
+      <PackagePath>js\monitor.js</PackagePath>
+      <Modified>2013-01-18T17:22:46.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\js\obd2pids.js">
+      <PackagePath>js\obd2pids.js</PackagePath>
+      <Modified>2013-01-17T02:34:48.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\js\socket.io.js">
+      <PackagePath>js\socket.io.js</PackagePath>
+      <Modified>2013-01-16T03:26:12.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\js\YeahToast.js">
+      <PackagePath>js\YeahToast.js</PackagePath>
+      <Modified>2013-01-17T19:38:50.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2012-09-19T01:52:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\packages.config">
+      <PackagePath>packages.config</PackagePath>
+      <Modified>2013-01-17T19:38:50.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-01-17T20:06:05.116</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

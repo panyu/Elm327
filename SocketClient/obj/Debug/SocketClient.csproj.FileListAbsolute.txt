@@ -1,0 +1,14 @@
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\SocketClient.exe.config
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\obj\Debug\SocketClient.csprojResolveAssemblyReference.cache
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\SocketClient.exe
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\SocketClient.pdb
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\obj\Debug\SocketClient.exe
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\obj\Debug\SocketClient.pdb
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\SocketIOClient.dll
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\WebSocket4Net.dll
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\SocketIOClient.pdb
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\SocketIOClient.xml
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClient\bin\Debug\WebSocket4Net.pdb

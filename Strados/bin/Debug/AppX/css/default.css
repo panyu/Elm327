@@ -1,0 +1,21 @@
+﻿body {
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+@font-face {
+    font-family: "Sams Town";
+    src: url("SAM_5C_27TRG_.eot?") format("eot"),url("SAM_5C_27TRG_.woff") format("woff"),url("SAM_5C_27TRG_.ttf") format("truetype"),url("SAM_5C_27TRG_.svg#SamsTown") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}

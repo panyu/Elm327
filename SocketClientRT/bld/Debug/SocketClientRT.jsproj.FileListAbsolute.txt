@@ -1,0 +1,13 @@
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bin\Debug\resources.pri
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bin\Debug\AppxManifest.xml
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bin\Debug\SocketClientRT.build.appxrecipe
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\priconfig.xml
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\layout.resfiles
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\resources.resfiles
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\pri.resfiles
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\LanguageQualifiers.txt
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\ProjectArchitectures.txt
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\priconfig.xml.intermediate
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\layout.resfiles.intermediate
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\resources.resfiles.intermediate
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\SocketClientRT\bld\Debug\pri.resfiles.intermediate

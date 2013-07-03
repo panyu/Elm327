@@ -1,0 +1,5 @@
+c:\users\nishanth\documents\visual studio 2012\Projects\Elm327\Elm327.Driver\bin\Debug\Elm327.Driver.dll
+c:\users\nishanth\documents\visual studio 2012\Projects\Elm327\Elm327.Driver\bin\Debug\Elm327.Driver.pdb
+c:\users\nishanth\documents\visual studio 2012\Projects\Elm327\Elm327.Driver\obj\Debug\Elm327.Driver.csprojResolveAssemblyReference.cache
+c:\users\nishanth\documents\visual studio 2012\Projects\Elm327\Elm327.Driver\obj\Debug\Elm327.Driver.dll
+c:\users\nishanth\documents\visual studio 2012\Projects\Elm327\Elm327.Driver\obj\Debug\Elm327.Driver.pdb

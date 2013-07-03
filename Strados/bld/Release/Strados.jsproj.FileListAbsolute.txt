@@ -1,0 +1,13 @@
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bin\Release\resources.pri
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bin\Release\AppxManifest.xml
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bin\Release\Strados.build.appxrecipe
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\priconfig.xml.intermediate
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\layout.resfiles.intermediate
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\resources.resfiles.intermediate
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\pri.resfiles.intermediate
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\priconfig.xml
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\layout.resfiles
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\resources.resfiles
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\pri.resfiles
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\LanguageQualifiers.txt
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Strados\bld\Release\ProjectArchitectures.txt

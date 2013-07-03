@@ -1,0 +1,4 @@
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Elm327.Driver\bin\Release\Elm327.Driver.dll
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Elm327.Driver\bin\Release\Elm327.Driver.pdb
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Elm327.Driver\obj\Release\Elm327.Driver.dll
+C:\Users\Nishanth\documents\visual studio 2012\Projects\Elm327\Elm327.Driver\obj\Release\Elm327.Driver.pdb

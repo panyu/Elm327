@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>YeahToast</id>
+    <version>1.0</version>
+    <authors>Damian Karzon,  Anthony Zigenbine</authors>
+    <owners>Damian Karzon,  Anthony Zigenbine</owners>
+    <projectUrl>https://github.com/Tboda/YeahToast</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>WinJS library to make windows 8 toast notifications simple and easy</description>
+    <tags>WinJS Toast</tags>
+    <references />
+  </metadata>
+</package>

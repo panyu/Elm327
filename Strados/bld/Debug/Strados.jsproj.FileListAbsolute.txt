@@ -1,0 +1,13 @@
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bin\Debug\resources.pri
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bin\Debug\AppxManifest.xml
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bin\Debug\Strados.build.appxrecipe
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\priconfig.xml.intermediate
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\layout.resfiles.intermediate
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\resources.resfiles.intermediate
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\pri.resfiles.intermediate
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\priconfig.xml
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\layout.resfiles
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\resources.resfiles
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\pri.resfiles
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\LanguageQualifiers.txt
+C:\Users\Nishanth\Documents\Visual Studio 2012\Projects\Elm327\Strados\bld\Debug\ProjectArchitectures.txt

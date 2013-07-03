@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Strados</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- Strados references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/css/kendo.dataviz.min.css" rel="stylesheet" />
+    <script src="/js/gauge.js"></script>
+    <script src="/js/obd2pids.js"></script>
+    <script src="/js/socket.io.js"></script>
+    <script src="/js/YeahToast.js"></script>
+    <script src="/js/jquery-1.8.2.min.js"></script>
+    <script src="/js/kendoui.all.min.js"></script>
+    <script src="/js/default.js"></script>
+
+    <script type="text/javascript">
+        var app = WinJS.Application;
+
+        app.onready = function () {
+            createDashboard();
+        };
+        
+        var gauges = [];
+
+        var normal = "#00CCAA";
+        var optimal = "#00A000";
+        var warning = "#A00000";
+
+        function createDashboard() {
+            var gauge = new Gauge({
+                renderTo: 'rpm',
+                width: 400,
+                height: 400,
+                glow: true,
+                units: 'rpm',
+                title: false,
+                minValue: 0,
+                maxValue: 8000,
+                majorTicks: [ '0', '1000', '2000', '3000', '4000', '5000', '6000', '7000', '8000'],
+                minorTicks: 4,
+                valueFormat: { int: 4, dec: 0 },
+                strokeTicks: true,
+                highlights: [
+                    { from: 0, to: 6500, color: 'rgba(0, 204, 170, 0)' },
+                    { from: 6500, to: 8000, color: 'rgba(160, 0,  0, 1)' }
+                ],
+                colors: {
+                    plate: '#000',
+                    majorTicks: '#f5f5f5',
+                    minorTicks: '#ddd',
+                    title: '#fff',
+                    units: '#ccc',
+                    numbers: '#eee',
+                    needle: { start: 'rgba(255, 80, 0, 255)', end: 'rgba(200, 63, 0, 255)' }
+                }
+            });
+            gauge.draw();
+            gauges.push(gauge);
+            var gauge = new Gauge({
+                renderTo: 'speed',
+                width: 400,
+                height: 400,
+                glow: true,
+                units: 'mph',
+                title: false,
+                minValue: 0,
+                maxValue: 140,
+                majorTicks: [ '0', '10', '20', '30', '40', '50', '60', '70', '80', '90', '100', '110', '120', '130', '140' ],
+                minorTicks: 9,
+                valueFormat: { int: 3, dec: 0 },
+                strokeTicks: false,
+                highlights: [ { from: 0, to: 140, color: 'rgba(0, 0, 0, 0)' } ],
+                colors: {
+                    plate: '#000',
+                    majorTicks: '#f5f5f5',
+                    minorTicks: '#ddd',
+                    title: '#fff',
+                    units: '#ccc',
+                    numbers: '#eee',
+                    needle: { start: 'rgba(255, 80, 0, 255)', end: 'rgba(200, 63, 0, 255)' }
+                }
+            });
+            gauge.draw();
+            gauges.push(gauge);
+        }
+
+        var socket = io.connect('http://localhost:8080');
+        socket.on('connect', function () {
+            socket.emit('subscriber');
+        });
+
+        socket.on('subscribed', function (args) {
+            socket.emit('start', { pids: "blah blah blah" });
+        });
+
+        var below4500 = true;
+        var below6500 = true;
+
+        socket.on('stats', function (message) {
+            var result = JSON.parse(message);
+            if (result.Stat == "0_60") {
+                YeahToast.show({ title: "0 - 60 time", textContent: result.Value, imgsrc: 'images/0_60.png' });
+            }
+            else if (result.Stat == "0_100") {
+                YeahToast.show({ title: "0 - 100 time", textContent: result.Value, imgsrc: 'images/0_100.png' });
+            }
+        });
+
+        socket.on('response', function (message) {
+            //parse JSON
+            var result = JSON.parse(message);
+
+            $.each(result, function (k,v) {
+                if (k == "speed") {
+                    gauges[1].setValue(v);
+                }
+                else if (k = "rpm") {
+                    if (v > 100) {
+                        if (v < 4500) {
+                            below4500 = true;
+                            below6500 = true;
+                        }
+                        else if (v > 4500 && v < 8000) {
+                            if (below4500) {
+                                below4500 = false;
+                                below6500 = true;
+                                YeahToast.show({ title: "Making it rumble", textContent: "Max torque", imgsrc: 'images/max_torque.png' });
+                            }
+                        }
+                        else {
+                            if (below6500) {
+                                below4500 = false;
+                                below6500 = false;
+                                YeahToast.show({ title: "Overrev warning", textContent: "Exceeded safe RPM limit", imgsrc: 'images/overrev.png' });
+                            }
+                        }
+                        gauges[0].setValue(v);
+                    }
+                }
+                else if (k == "mafrate") {
+                    $('#maf').html = v;
+                }
+                else if (k == "intaketemp") {
+                    $('#intaketemp').html = v;
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+    <h1 style="margin-left: auto; margin-right: auto;">Strados</h1>
+		<canvas id="rpm" width="400" height="400" style="position:absolute;left:283px;top:184px;"></canvas>
+		<canvas id="speed" width="400" height="400" style="position:absolute;left:683px;top:184px;"></canvas>
+</body>
+</html>

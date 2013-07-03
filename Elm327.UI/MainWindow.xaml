@@ -1,0 +1,11 @@
+﻿<Window x:Class="Elm327.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock x:Name="SpeedBlock" Margin="0,0,417,294" />
+        <TextBlock x:Name="RpmBlock" Margin="0,25,417,269" />
+        <TextBlock x:Name="LoadBlock" Margin="0,55,417,239" />
+        <TextBlock x:Name="TempBlock" Margin="0,80,417,209" />
+    </Grid>
+</Window>
